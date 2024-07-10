@@ -86,6 +86,7 @@ static NSString * const kMARKRangeSliderTrackRangeImage = @"rangeSliderTrackRang
 
     // Init left thumb image
     self.leftThumbImageView = [[UIImageView alloc] initWithImage:self.leftThumbImage];
+    self.leftThumbImageView.backgroundColor = [UIColor redColor];
     self.leftThumbImageView.userInteractionEnabled = YES;
     self.leftThumbImageView.contentMode = UIViewContentModeCenter;
     [self addSubview:self.leftThumbImageView];
@@ -96,6 +97,7 @@ static NSString * const kMARKRangeSliderTrackRangeImage = @"rangeSliderTrackRang
 
     // Init right thumb image
     self.rightThumbImageView = [[UIImageView alloc] initWithImage:self.rightThumbImage];
+    self.rightThumbImageView.backgroundColor = [UIColor blueColor];
     self.rightThumbImageView.userInteractionEnabled = YES;
     self.rightThumbImageView.contentMode = UIViewContentModeCenter;
     [self addSubview:self.rightThumbImageView];
